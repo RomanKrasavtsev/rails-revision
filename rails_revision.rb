@@ -1,5 +1,5 @@
 require "sinatra"
 
 get "/" do
-  "Rails Revision"
+  erb :index
 end
