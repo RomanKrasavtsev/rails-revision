@@ -9,7 +9,7 @@ class Ssh
   end
 
   def exec command
-    Net::SSH:.start(@ip, @user, @passwrod) do |ssh|
+    Net::SSH.start(@ip, @user, @passwrod) do |ssh|
       ssh.exec!(command) 
     end
   end
