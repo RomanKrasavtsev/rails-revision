@@ -1,4 +1,4 @@
 # Rails Revision
 
-It’s always nice to know which version of your code is deployed. Each of our Rails apps include an intitializer that grabs the REVISION file that capistrano creates during a deploy. If you don’t use capistrano, you can always shell out to git (like we do to grab the short SHA1).
+It’s always nice to know which version of your code is deployed. Each of our Rails apps include the REVISION file that capistrano creates during a deploy. If you don’t use capistrano, you can always shell out to git.
 
