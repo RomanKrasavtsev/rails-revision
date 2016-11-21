@@ -1,3 +1,28 @@
 <link href="<%= url('/bootstrap.min.css') %>" rel="stylesheet" type="text/css" />
-<h1>Rails Revision</h1>
+<div class="container">
+  <div class="header clearfix">
+    <h3 class="text-muted">
+      <a href="https://github.com/RomanKrasavtsev/rails-revision" target="_blank">
+        Rails Revision
+      </a>
+    </h3>
+  </div>
+  
+  <% @revisions.each do |revision| %>
+    <div class="jumbotron">
+      <h3><%= revision[:server] %></h3>
+      <p class="lead">
+        Revision: <%= revision[:revision] %>
+      </p>
+      <p></p>
+    </div>
+  <% end %>
 
+  <footer class="footer">
+    <p>
+      <a href="https://github.com/romankrasavtsev" target="_blank">
+        &copy; 2016 Roman Krasavtsev
+      </a>
+    </p>
+  </footer>
+</div>
