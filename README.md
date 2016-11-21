@@ -6,5 +6,8 @@ It’s always nice to know which version of your code is deployed. Each of our R
 
 - Copy settings_sample.rb to settings.rb
 - Edit and configure settings.rb for your application servers
-- Run ruby rails_revision.rb
+- Run
+```
+$ ruby rails_revision.rb
+```
 - Open [http://localhost:4567/](http://localhost:4567/)
