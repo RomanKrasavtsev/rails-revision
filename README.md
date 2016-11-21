@@ -4,10 +4,16 @@ It’s always nice to know which version of your code is deployed. Each of our R
 
 # How to use
 
-- Copy settings_sample.rb to settings.rb
-- Edit and configure settings.rb for your application servers
-- Run
+Copy settings_sample.rb to settings.rb
+```console
+cp settings_sample.rb settings.rb
 ```
+Edit and configure settings.rb for your application servers
+```console
+vim settings.rb
+```
+Then run
+```console
 $ ruby rails_revision.rb
 ```
-- Open [http://localhost:4567/](http://localhost:4567/)
+And open in your browser [http://localhost:4567/](http://localhost:4567/)
