@@ -4,6 +4,8 @@ require_relative "lib/capistrano"
 require_relative "lib/git"
 require_relative  "settings"
 
+set :bind, "0.0.0.0"
+
 get "/" do
   @revisions = []
   SERVERS.each do |server|
