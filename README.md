@@ -18,4 +18,4 @@ $ ruby rails_revision.rb
 ```
 And open in your browser [http://localhost:4567/](http://localhost:4567/)
 
-![Rails Revision](rails-revision/rails_revision.png)
+![Rails Revision](rails_revision.png)
