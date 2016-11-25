@@ -17,3 +17,5 @@ Then run
 $ ruby rails_revision.rb
 ```
 And open in your browser [http://localhost:4567/](http://localhost:4567/)
+
+![Rails Revision](rails-revision/rails_revision.png)
