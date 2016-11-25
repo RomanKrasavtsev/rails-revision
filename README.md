@@ -2,8 +2,18 @@
 
 It’s always nice to know which version of your code is deployed. Each of our Rails apps include the REVISION file that capistrano creates during a deploy. If you don’t use capistrano, you can always shell out to git.
 
+![Rails Revision](rails_revision.png)
+
 # How to use
 
+Clone it
+ ```console
+ git clone https://github.com/RomanKrasavtsev/rails-revision.git
+ ```
+Change your current directory and install gems
+```console
+cd rails-revision && bundle
+```
 Copy settings_sample.rb to settings.rb
 ```console
 cp settings_sample.rb settings.rb
@@ -17,5 +27,3 @@ Then run
 $ ruby rails_revision.rb
 ```
 And open in your browser [http://localhost:4567/](http://localhost:4567/)
-
-![Rails Revision](rails_revision.png)
