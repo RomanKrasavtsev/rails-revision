@@ -33,7 +33,9 @@
         <%= revision[:server] %>
       </div>
       <div class="panel-body">
-        <%= revision[:revision][0..6] %>
+        revision: <%= revision[:revision][0..6] %>
+        <br>
+        start_date_time: <%= revision[:start_date_time] %>
       </div>
     </div>
   <% end %>
